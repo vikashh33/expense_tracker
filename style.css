@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #16352c;
+    background: #ffffff;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button,
+input {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+:root {
+    --green: #14a800;
+    --dark-green: #087443;
+    --dark: #16352c;
+    --gray: #66736d;
+    --light: #f5faf6;
+}
+
+.navbar {
+    min-height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 4%;
+    gap: 25px;
+    border-bottom: 1px solid #eeeeee;
+    background: white;
+}
+
+.logo {
+    font-size: 31px;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    color: #18382e;
+    white-space: nowrap;
+}
+
+.logo span {
+    color: var(--green);
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.nav-links a {
+    font-size: 14px;
+    color: #303b35;
+    white-space: nowrap;
+}
+
+.nav-links a:hover {
+    color: var(--green);
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #e3e7e4;
+    border-radius: 30px;
+    padding: 10px 15px;
+    min-width: 180px;
+    flex: 1;
+    max-width: 300px;
+}
+
+.nav-search span {
+    font-size: 23px;
+    color: var(--green);
+}
+
+.nav-search input {
+    width: 100%;
+    min-width: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 13px;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.login-btn {
+    background: transparent;
+    border: none;
+    color: #263b31;
+    font-size: 14px;
+}
+
+.signup-btn {
+    border: none;
+    border-radius: 7px;
+    background: var(--green);
+    color: white;
+    padding: 11px 22px;
+    font-weight: bold;
+}
+
+.signup-btn:hover,
+.primary-btn:hover {
+    background: #108700;
+}
+
+.menu-btn {
+    display: none;
+    background: transparent;
+    border: none;
+    font-size: 27px;
+}
