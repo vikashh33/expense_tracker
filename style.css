@@ -155,3 +155,80 @@ button {
 .category-nav a:hover {
     color: var(--green);
 }
+
+.hero {
+    max-width: 1500px;
+    min-height: 620px;
+    margin: 0 auto;
+    padding: 70px 4% 45px;
+
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    align-items: center;
+    gap: 45px;
+}
+
+.hero-content {
+    max-width: 650px;
+}
+
+.eyebrow {
+    color: var(--green);
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    color: #153b3e;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(48px, 5.2vw, 76px);
+    line-height: 1.08;
+    letter-spacing: -2px;
+    margin-bottom: 28px;
+}
+
+.hero h1 span {
+    display: block;
+}
+
+.hero-description {
+    max-width: 520px;
+    font-size: 19px;
+    line-height: 1.8;
+    color: #586760;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.primary-btn,
+.secondary-btn {
+    min-width: 150px;
+    padding: 15px 25px;
+    border-radius: 7px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.primary-btn {
+    border: 1px solid var(--green);
+    background: var(--green);
+    color: white;
+}
+
+.secondary-btn {
+    border: 1px solid #d9e2dc;
+    background: white;
+    color: var(--dark-green);
+}
+
+.secondary-btn:hover {
+    border-color: var(--green);
+    background: #f3faf3;
+}
