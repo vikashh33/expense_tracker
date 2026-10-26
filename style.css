@@ -232,3 +232,40 @@ button {
     border-color: var(--green);
     background: #f3faf3;
 }
+
+.hero-images {
+    position: relative;
+    min-height: 480px;
+    width: 100%;
+}
+
+.hero-images img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-top {
+    position: absolute;
+    top: 0;
+    right: 20%;
+    width: 65%;
+    height: 290px;
+    overflow: hidden;
+    border-radius: 3px;
+    background: #edf1ed;
+}
+
+.image-bottom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 75%;
+    height: 300px;
+    overflow: hidden;
+    border: 7px solid white;
+    border-radius: 5px;
+    background: #edf1ed;
+}
+
